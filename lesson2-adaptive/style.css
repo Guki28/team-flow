@@ -1,0 +1,85 @@
+.box {
+  background-color: aquamarine;
+  width: 80%;
+}
+.box-item {
+  height: 100px;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  margin-top: 20px;
+}
+.percent {
+  width: 60%;
+}
+.vw {
+  width: 60vw;
+}
+.px {
+  width: 600px;
+}
+/* check height */
+
+.box2 {
+  background-color: brown;
+  height: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+.box2-item {
+  height: 60%;
+  color: white;
+  font-size: 40px;
+  background-color: black;
+}
+.perc {
+  height: 80%;
+}
+.vh {
+  height: 80vh;
+}
+px-height {
+  height: 500px;
+}
+/* media zaprosy */
+
+.max-min {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  margin-top: 20px;
+}
+@media all and (min-width: 500px) {
+  .yellow-box {
+    background-color: yellow;
+    color: black;
+  }
+}
+@media all and (max-width: 500px) {
+  .round-box {
+    border-radius: 50%;
+  }
+}
+
+/* em rem px for font */
+
+.parent {
+  margin-top: 50px;
+  font-size: 15px;
+}
+.child {
+  font-size: 2em;
+}
+html {
+  font-size: 50px;
+}
+.child-rem {
+  font-size: 2rem;
+}
+@media all and (max-width: 500px) {
+  html {
+    font-size: 12px;
+  }
+}
